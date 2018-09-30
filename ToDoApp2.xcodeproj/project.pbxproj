@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04903578215D11B2007342AE /* Custom_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04903577215D11B2007342AE /* Custom_Cell.swift */; };
 		04CC7245215D033900438ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7244215D033900438ECB /* AppDelegate.swift */; };
 		04CC7247215D033900438ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7246215D033900438ECB /* ViewController.swift */; };
 		04CC724A215D033900438ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC7248215D033900438ECB /* Main.storyboard */; };
 		04CC724C215D033900438ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC724B215D033900438ECB /* Assets.xcassets */; };
 		04CC724F215D033900438ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC724D215D033900438ECB /* LaunchScreen.storyboard */; };
+		04CC7258215D036100438ECB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7256215D036000438ECB /* Realm.framework */; };
+		04CC7259215D036100438ECB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7257215D036000438ECB /* RealmSwift.framework */; };
+		04CC725A215D036500438ECB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7256215D036000438ECB /* Realm.framework */; };
+		04CC725B215D036500438ECB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7256215D036000438ECB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04CC725C215D036500438ECB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7257215D036000438ECB /* RealmSwift.framework */; };
+		04CC725D215D036500438ECB /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CC7257215D036000438ECB /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04CC7261215D057300438ECB /* Class_Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC7260215D057300438ECB /* Class_Todo.swift */; };
+		C409F13552A0E502267F56B4 /* Pods_ToDoApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECCE13C383A0F438121FBAE /* Pods_ToDoApp2.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04CC725E215D036500438ECB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04CC725D215D036500438ECB /* RealmSwift.framework in Embed Frameworks */,
+				04CC725B215D036500438ECB /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04903577215D11B2007342AE /* Custom_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Cell.swift; sourceTree = "<group>"; };
 		04CC7241215D033900438ECB /* ToDoApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CC7244215D033900438ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CC7246215D033900438ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +47,12 @@
 		04CC724B215D033900438ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CC724E215D033900438ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CC7250215D033900438ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC7256215D036000438ECB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		04CC7257215D036000438ECB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		04CC7260215D057300438ECB /* Class_Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_Todo.swift; sourceTree = "<group>"; };
+		3BBD64695F8F9FFD983A1EB9 /* Pods-ToDoApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoApp2/Pods-ToDoApp2.release.xcconfig"; sourceTree = "<group>"; };
+		7ECCE13C383A0F438121FBAE /* Pods_ToDoApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A789289A9CEA769D34F87E21 /* Pods-ToDoApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoApp2/Pods-ToDoApp2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC725A215D036500438ECB /* Realm.framework in Frameworks */,
+				04CC7259215D036100438ECB /* RealmSwift.framework in Frameworks */,
+				04CC725C215D036500438ECB /* RealmSwift.framework in Frameworks */,
+				04CC7258215D036100438ECB /* Realm.framework in Frameworks */,
+				C409F13552A0E502267F56B4 /* Pods_ToDoApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,8 @@
 			children = (
 				04CC7243215D033900438ECB /* ToDoApp2 */,
 				04CC7242215D033900438ECB /* Products */,
+				C2CFEDF80EAC347E06A171B2 /* Pods */,
+				1BA986D5DF82CCA02197D051 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +94,33 @@
 			children = (
 				04CC7244215D033900438ECB /* AppDelegate.swift */,
 				04CC7246215D033900438ECB /* ViewController.swift */,
+				04CC7260215D057300438ECB /* Class_Todo.swift */,
+				04903577215D11B2007342AE /* Custom_Cell.swift */,
 				04CC7248215D033900438ECB /* Main.storyboard */,
 				04CC724B215D033900438ECB /* Assets.xcassets */,
 				04CC724D215D033900438ECB /* LaunchScreen.storyboard */,
 				04CC7250215D033900438ECB /* Info.plist */,
+				04CC7256215D036000438ECB /* Realm.framework */,
+				04CC7257215D036000438ECB /* RealmSwift.framework */,
 			);
 			path = ToDoApp2;
+			sourceTree = "<group>";
+		};
+		1BA986D5DF82CCA02197D051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECCE13C383A0F438121FBAE /* Pods_ToDoApp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2CFEDF80EAC347E06A171B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A789289A9CEA769D34F87E21 /* Pods-ToDoApp2.debug.xcconfig */,
+				3BBD64695F8F9FFD983A1EB9 /* Pods-ToDoApp2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CC7253215D033900438ECB /* Build configuration list for PBXNativeTarget "ToDoApp2" */;
 			buildPhases = (
+				55519F76C65F55666D71C3FE /* [CP] Check Pods Manifest.lock */,
 				04CC723D215D033900438ECB /* Sources */,
 				04CC723E215D033900438ECB /* Frameworks */,
 				04CC723F215D033900438ECB /* Resources */,
+				04CC725E215D036500438ECB /* Embed Frameworks */,
+				04CC725F215D03AA00438ECB /* ShellScript */,
+				296D7ABA786E3E7AC5F33AF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,12 +194,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04CC725F215D03AA00438ECB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+		296D7ABA786E3E7AC5F33AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ToDoApp2/Pods-ToDoApp2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoApp2/Pods-ToDoApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55519F76C65F55666D71C3FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CC723D215D033900438ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC7261215D057300438ECB /* Class_Todo.swift in Sources */,
 				04CC7247215D033900438ECB /* ViewController.swift in Sources */,
+				04903578215D11B2007342AE /* Custom_Cell.swift in Sources */,
 				04CC7245215D033900438ECB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +391,15 @@
 		};
 		04CC7254215D033900438ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A789289A9CEA769D34F87E21 /* Pods-ToDoApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ94Y9HT46;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ToDoApp2",
+				);
 				INFOPLIST_FILE = ToDoApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.ToDoApp2;
@@ -287,10 +411,15 @@
 		};
 		04CC7255215D033900438ECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBD64695F8F9FFD983A1EB9 /* Pods-ToDoApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ94Y9HT46;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ToDoApp2",
+				);
 				INFOPLIST_FILE = ToDoApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.ToDoApp2;
